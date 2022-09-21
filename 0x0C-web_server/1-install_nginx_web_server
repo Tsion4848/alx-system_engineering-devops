@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 # a bash script that installs nginx on web-01 server which listens to port 80
 apt-get -y install nginx
 echo "Hello World!" | tee /usr/share/nginx/html/index.html > /dev/null
